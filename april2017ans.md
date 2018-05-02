@@ -79,3 +79,33 @@ iface eht0 inet static
 auto eth0
 iface ehto inet dhcp
 ```
+
+## 3(a)
+- IT related risk is increasing
+- IT is complex
+- IT is fast changing
+- improving corporate governance
+- improve management and control of IT activities
+- organizations are relying more and more on IT technologies
+    - managers need to know the critical risk of IT and whether they are being managed or not
+- managements need to knows whether the infrastructure underpinning today's and tomorrow's IT (people,technology,process) supports the expected business needs
+
+## 4(a)(i)
+```
+cat /etc/passwd
+```
+
+## 4(a)(ii)
+```
+cat /etc/passwd | grep simon
+```
+
+## 4(a)(iii)
+```
+userdel -r simon
+```
+
+## 4(a)(iv)
+```
+sudo usermod -aG adm,sudo wongjiahau
+```
