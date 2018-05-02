@@ -109,3 +109,28 @@ userdel -r simon
 ```
 sudo usermod -aG adm,sudo wongjiahau
 ```
+
+## 5(b)(i)
+```
+systemctl status apache2
+```
+
+## 5(b)(ii)
+```
+/etc/apache2/sites-available
+```
+
+## 5(c)(i)
+```
+chmod u+x testutar.sh
+```
+
+## 5(c)(ii)
+```
+chmod og+x testutar.sh
+```
+
+## 5(c)(iii)
+```
+chmod o-rws testutar.sh
+```
