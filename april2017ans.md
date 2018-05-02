@@ -46,3 +46,36 @@ Refer [here](https://www.cyberciti.biz/faq/what-is-a-routing-table/).
 - iface (which network interface)
 
 ## 2(a)(ii)
+```
+netstat -raN inet6
+```
+
+## 2(b)(i)
+```
+netstat -tuna
+```
+
+## 2(b)(ii)
+```sh
+-t # means to display TCP connections
+-u # means to display UDP connections
+-n # means to display the details in numeric
+-a # means to display all details
+```
+
+## 2(c)(i)
+Refer [here](https://www.swiftstack.com/docs/install/configure_networking.html).
+```
+auto eth0
+iface eht0 inet static
+    address 192.168.1.55
+    netmask 255.255.255.0
+    network 192.168.1.0
+    gateway 192.168.1.254
+```
+
+## 2(c)(ii)  
+```
+auto eth0
+iface ehto inet dhcp
+```
